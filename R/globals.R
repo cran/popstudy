@@ -1,0 +1,13 @@
+utils::globalVariables(c("date_reg", "age", "Li", "A", "Ls", "choose_days.fin", "fac.sep",
+                         "previous", "cohort", "deaths2", "filter.previous", "filter.same",
+                         "births", ".", "deaths2.total", "pop.total", "x", "y", "xend", "yend",
+                         "estimation", "d1", "d2", "d3", "f1", "f2", "f3", "karup_king_factors",
+                         "pop", "1", "2", "3", "4", "5", "6", "7", "8", "D", "Nj", "Nj.", "U",
+                         "aj", "aj.", "aj.Nj.", "ajNj", "group", "level", "pop_fix", "req_age",
+                         "suf", "value", "childs", "CPW", "Max", "Ignored", "Unknown", "Zi",
+                         "Ui", "ages", "factors", "fac.sep.y", "delta", "filter.delta", "filter.alpha",
+                         "sex", "V1", "V1_class", "V2", "V2_class", "cor_type", "r", "rowname",
+                         "train", "test", "Valor", "Medida", "AIC", "AICc", "BIC", "MAE", "RMSE", "MASE",
+                         "puntaje", "ponde", "mod", "variable", "cases", "p", "q", "P", "Q",
+                         "train", "test", "isp", "poblacion", "periodo", "sexo", "edad", "Year",
+                         "Age", "Female", "Male", "CR_mortality_rates_2010_2015.txt"))
