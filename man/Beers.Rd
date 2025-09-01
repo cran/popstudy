@@ -27,7 +27,7 @@ Beers(Ecuador1990, age, population)
 \insertRef{Shryock}{popstudy}
 }
 \seealso{
-\code{\link{Sprague}}
+\code{\link[popstudy]{Sprague}}
 }
 \author{
 Cesar Gamboa-Sanabria

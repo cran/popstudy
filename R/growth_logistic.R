@@ -22,7 +22,7 @@
 #' growth_logistic(pivot_values = c(3.32, 2.85), pivot_years = c(1986, 1991),
 #' upper = 8, lower=1.5, t=1987)
 #'
-#' @seealso \code{\link{growth_exp}}, \code{\link{growth_linear}}
+#' @seealso \code{\link[popstudy]{growth_exp}}, \code{\link[popstudy]{growth_linear}}
 #'
 #' @author Cesar Gamboa-Sanabria
 #'

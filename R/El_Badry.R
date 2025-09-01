@@ -27,8 +27,8 @@
 #'
 #' @seealso
 #'
-#' \code{\link{CEB}}
-#' \code{\link{Moultrie}}
+#' \code{CEB} dataset
+#' \code{Moultrie} dataset
 #'
 #' @references
 #'

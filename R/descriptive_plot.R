@@ -4,7 +4,7 @@
 #'
 #' @param data data.frame.
 #'
-#' @param ... additional arguments to be passed to \code{\link[dplyr:select]{dplyr::select()}}.
+#' @param ... additional arguments to be passed to \code{\link[dplyr]{select}}.
 #'
 #' @param labels A vector with x-axis labels.
 #'

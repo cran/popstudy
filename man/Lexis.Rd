@@ -16,9 +16,9 @@ Lexis(
 )
 }
 \arguments{
-\item{deaths_data}{data.frame. A dataset with three variables: date_reg, the registered death date, age, the age of decease; and deaths, the deaths number for that date. See \code{\link{CR_deaths}}.}
+\item{deaths_data}{data.frame. A dataset with three variables: date_reg, the registered death date, age, the age of decease; and deaths, the deaths number for that date. See \code{CR_deaths} dataset.}
 
-\item{births_data}{data data.frame. A dataset with two variables: date_reg, the registered birth date; and births, the births number for that date. See \code{\link{CR_births}}.}
+\item{births_data}{data data.frame. A dataset with two variables: date_reg, the registered birth date; and births, the births number for that date. See \code{CR_births} dataset.}
 
 \item{first.date}{character. Optional argument that specifies the first date of interest.}
 

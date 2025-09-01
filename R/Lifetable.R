@@ -2,9 +2,9 @@
 #'
 #' Estimates a lifetable from mortality rates and population data.
 #'
-#' @param rates character. A character string that specifies mortality data path. The dataset is a .txt file like \code{\link{CR_mortality_rates_2010_2015}}.
+#' @param rates character. A character string that specifies mortality data path. The dataset is a .txt file like \code{CR_mortality_rates_2010_2015} dataset.
 #'
-#' @param pops character. A character string that specifies population data path. The dataset is a .txt file like \code{\link{CR_populations_1950_2015}}.
+#' @param pops character. A character string that specifies population data path. The dataset is a .txt file like \code{CR_populations_1950_2015} dataset.
 #'
 #' @param sex character. "female" or "male".
 #'
@@ -14,11 +14,11 @@
 #'
 #' @param threshold numeric. Maximum forecast year.
 #'
-#' @param jump character. Same purpose to \code{jumpchoice} argument in \code{\link{forecast}} function.
+#' @param jump character. Same purpose to \code{jumpchoice} argument in \code{\link[forecast]{forecast}} function.
 #'
 #' @param element character. Wanted estimation element, one of "mx", "qx", "lx", "dx", "Lx", "Tx", "ex" or "rx".
 #'
-#' @param ... additional arguments to be passed to \code{\link{read.demogdata}}, such as \code{label}.
+#' @param ... additional arguments to be passed to \code{\link[demography]{read.demogdata}}, such as \code{label}.
 #'
 #' @return \code{Lifetable} function returns a list with both data frames, wide and long format, for specified element in argument \code{element} for desire years.
 #'

@@ -17,7 +17,7 @@
 #'
 #' @seealso
 #'
-#' \code{\link{Sprague}}
+#' \code{\link[popstudy]{Sprague}}
 #'
 #' @references
 #'

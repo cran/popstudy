@@ -29,8 +29,8 @@ tidyr::pivot_wider(results, names_from=age, values_from=childs)
 \insertRef{moultrie}{popstudy}
 }
 \seealso{
-\code{\link{CEB}}
-\code{\link{El_Badry}}
+\code{CEB} dataset
+\code{El_Badry} dataset
 }
 \author{
 Cesar Gamboa-Sanabria

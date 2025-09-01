@@ -16,7 +16,7 @@
 #'
 #' \insertRef{karup_king}{popstudy}
 #'
-#' @seealso \code{\link{grouped_age_CR_pop}}
+#' @seealso \code{grouped_age_CR_pop} dataset
 #'
 #' @export
 karup_king <- function(data){

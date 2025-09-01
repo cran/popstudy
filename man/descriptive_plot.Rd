@@ -9,7 +9,7 @@ descriptive_plot(data, ..., labels = NULL, ylab = "Density")
 \arguments{
 \item{data}{data.frame.}
 
-\item{...}{additional arguments to be passed to \code{\link[dplyr:select]{dplyr::select()}}.}
+\item{...}{additional arguments to be passed to \code{\link[dplyr]{select}}.}
 
 \item{labels}{A vector with x-axis labels.}
 

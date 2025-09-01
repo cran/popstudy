@@ -36,7 +36,7 @@ upper = 8, lower=1.5, t=1987)
 \insertRef{growth_exp}{popstudy}
 }
 \seealso{
-\code{\link{growth_exp}}, \code{\link{growth_linear}}
+\code{\link[popstudy]{growth_exp}}, \code{\link[popstudy]{growth_linear}}
 }
 \author{
 Cesar Gamboa-Sanabria

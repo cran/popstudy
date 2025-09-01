@@ -30,7 +30,7 @@ netmigration_projection(
 \item{first_year_projection}{numeric. Year for the base population.}
 }
 \value{
-\code{netmigration_projection} returns an object of class \code{fmforecast} with the forecast netmigration models and the components of \code{\link[demography:forecast.fdmpr]{demography::forecast.fdmpr()}}.
+\code{netmigration_projection} returns an object of class \code{fmforecast} with the forecast netmigration models and the components of \code{\link[demography]{forecast.fdmpr}}.
 }
 \description{
 Forecasting net migration.

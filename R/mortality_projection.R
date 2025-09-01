@@ -12,9 +12,9 @@
 #'
 #' @param first_year_projection numeric. Year for the base population.
 #'
-#' @param ... additional arguments to be passed to \code{\link[forecast:Arima]{forecast::Arima()}}.
+#' @param ... additional arguments to be passed to \code{\link[forecast]{Arima}}.
 #'
-#' @return \code{mortality_projection} returns an object of class \code{fmforecast} with with both female and male mortality projections and the components of \code{\link[demography:forecast.lca]{demography::forecast.lca()}}.
+#' @return \code{mortality_projection} returns an object of class \code{fmforecast} with with both female and male mortality projections and the components of \code{\link[demography]{forecast.lca}}.
 #'
 #' @examples
 #'

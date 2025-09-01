@@ -49,7 +49,7 @@ growth_exp(N0=2839177, Nt=5000000, r=0.0182, t0="2000-05-14", date=TRUE)
 \insertRef{growth_exp}{popstudy}
 }
 \seealso{
-\code{\link{growth_linear}}, \code{\link{growth_logistic}}
+\code{\link[popstudy]{growth_linear}}, \code{\link[popstudy]{growth_logistic}}
 }
 \author{
 Cesar Gamboa-Sanabria

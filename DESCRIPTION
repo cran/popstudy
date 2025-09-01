@@ -1,7 +1,7 @@
 Package: popstudy
 Type: Package
 Title: Applied Techniques to Demographic and Time Series Analysis
-Version: 1.0.1
+Version: 1.0.2
 Depends: R (>= 3.5.0)
 Authors@R: c(
     person("Cesar", "Gamboa-Sanabria", email="info@cesargamboasanabria.com", role=c( "aut", "mdc", "cph", "cre"), comment=c(ORCID = "0000-0001-6733-4759"))
@@ -19,11 +19,11 @@ Encoding: UTF-8
 RdMacros: Rdpack
 LazyData: true
 URL: https://www.cesargamboasanabria.com
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 Suggests: testthat, snow
 NeedsCompilation: no
-Packaged: 2023-10-17 23:15:03 UTC; cesar
-Author: Cesar Gamboa-Sanabria [aut, mdc, cph, cre]
-    (<https://orcid.org/0000-0001-6733-4759>)
+Packaged: 2025-09-01 18:24:36 UTC; cesar
+Author: Cesar Gamboa-Sanabria [aut, mdc, cph, cre] (ORCID:
+    <https://orcid.org/0000-0001-6733-4759>)
 Repository: CRAN
-Date/Publication: 2023-10-17 23:50:02 UTC
+Date/Publication: 2025-09-01 18:50:02 UTC

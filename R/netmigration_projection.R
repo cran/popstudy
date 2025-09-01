@@ -16,7 +16,7 @@
 #'
 #' @param first_year_projection numeric. Year for the base population.
 #'
-#' @return \code{netmigration_projection} returns an object of class \code{fmforecast} with the forecast netmigration models and the components of \code{\link[demography:forecast.fdmpr]{demography::forecast.fdmpr()}}.
+#' @return \code{netmigration_projection} returns an object of class \code{fmforecast} with the forecast netmigration models and the components of \code{\link[demography]{forecast.fdmpr}}.
 #'
 #' @examples
 #'

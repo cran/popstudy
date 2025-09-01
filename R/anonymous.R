@@ -5,7 +5,7 @@
 #' @param data data.frame. A dataset with the a variable to change its values.
 #' @param ID character. A string with the variable name to change its values.
 #' @param string_length numeric. It defines the string length of the new identification variable.
-#' @param SEED to be passed to \code{\link{set.seed}} to keep the the same new id's.
+#' @param SEED to be passed to \code{\link[base]{set.seed}} to keep the the same new id's.
 #'
 #' @return \code{anonymous} function returns a list with two data frames:
 #' \item{data}{original data with the new variable}

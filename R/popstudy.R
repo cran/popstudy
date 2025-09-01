@@ -2,7 +2,6 @@
 #'
 #' Applied techniques to demographic and time series analysis.
 #'
-#' @docType package
 #'
 #' @author Cesar Gamboa-Sanabria \email{info@cesargamboasanabria.com}
 #'

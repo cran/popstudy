@@ -13,7 +13,7 @@ anonymous(data, ID, string_length = 15, SEED = NULL)
 
 \item{string_length}{numeric. It defines the string length of the new identification variable.}
 
-\item{SEED}{to be passed to \code{\link{set.seed}} to keep the the same new id's.}
+\item{SEED}{to be passed to \code{\link[base]{set.seed}} to keep the the same new id's.}
 }
 \value{
 \code{anonymous} function returns a list with two data frames:

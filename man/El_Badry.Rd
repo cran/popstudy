@@ -37,8 +37,8 @@ El_Badry(CEB_data,ages, CEB, children)
 \insertRef{moultrie}{popstudy}
 }
 \seealso{
-\code{\link{CEB}}
-\code{\link{Moultrie}}
+\code{CEB} dataset
+\code{Moultrie} dataset
 }
 \author{
 Cesar Gamboa-Sanabria

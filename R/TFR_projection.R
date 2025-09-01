@@ -10,11 +10,11 @@
 #'
 #' @param first_year_projection numeric. Year for the base population.
 #'
-#' @param ... additional arguments to be passed to \code{\link[forecast:Arima]{forecast::Arima()}}.
+#' @param ... additional arguments to be passed to \code{\link[forecast]{Arima}}.
 #'
 #' @return
 #'
-#' \code{TFR_projection} returns an object of class \code{fmforecast} with the forecast fertility rates and the components of \code{\link[demography:forecast.fdm]{demography::forecast.fdm()}}.
+#' \code{TFR_projection} returns an object of class \code{fmforecast} with the forecast fertility rates and the components of \code{\link[demography]{forecast.fdm}}.
 #'
 #' @examples
 #'

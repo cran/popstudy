@@ -24,7 +24,7 @@ karup_king(grouped_age_CR_pop)
 \insertRef{karup_king}{popstudy}
 }
 \seealso{
-\code{\link{grouped_age_CR_pop}}
+\code{grouped_age_CR_pop} dataset
 }
 \author{
 Cesar Gamboa-Sanabria

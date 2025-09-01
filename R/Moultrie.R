@@ -19,8 +19,8 @@
 #'
 #' @seealso
 #'
-#' \code{\link{CEB}}
-#' \code{\link{El_Badry}}
+#' \code{CEB} dataset
+#' \code{El_Badry} dataset
 #'
 #' @references
 #'

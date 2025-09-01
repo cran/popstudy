@@ -26,7 +26,7 @@ Sprague(Ecuador1990, age, population)
 \insertRef{Shryock}{popstudy}
 }
 \seealso{
-\code{\link{Beers}}
+\code{\link[popstudy]{Beers}}
 }
 \author{
 Cesar Gamboa-Sanabria

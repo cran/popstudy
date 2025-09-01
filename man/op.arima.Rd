@@ -41,11 +41,11 @@ op.arima(
 
 \item{clusters}{numeric. The number of clusters for the parallel process.}
 
-\item{LAMBDA}{Optionally. See \code{\link[forecast:Arima]{forecast::Arima()}} for details.}
+\item{LAMBDA}{Optionally. See \code{\link[forecast]{Arima}} for details.}
 
 \item{ISP}{numeric. Overparameterization indicator to filter the estimated models in the (0,100] interval.}
 
-\item{...}{additional arguments to be passed to \code{\link[forecast:Arima]{forecast::Arima()}}.}
+\item{...}{additional arguments to be passed to \code{\link[forecast]{Arima}}.}
 }
 \value{
 \code{op.arima} returns an object of class \code{list} with the following components:
@@ -53,7 +53,7 @@ op.arima(
 \item{arima_models}{all models defined by the \code{arima_process} argument.}
 \item{final_measures}{goodness of fit and precision measures for each model.}
 \item{bests}{a sorted list with the best ARIMA models.}
-\item{best_model}{a list of "Arima", see \code{\link[forecast:Arima]{forecast::Arima()}}}
+\item{best_model}{a list of "Arima", see \code{\link[forecast]{Arima}}}
 }
 \description{
 Estimates the best predictive ARIMA model using overparameterization.

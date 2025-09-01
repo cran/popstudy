@@ -17,9 +17,9 @@ Lifetable(
 )
 }
 \arguments{
-\item{rates}{character. A character string that specifies mortality data path. The dataset is a .txt file like \code{\link{CR_mortality_rates_2010_2015}}.}
+\item{rates}{character. A character string that specifies mortality data path. The dataset is a .txt file like \code{CR_mortality_rates_2010_2015} dataset.}
 
-\item{pops}{character. A character string that specifies population data path. The dataset is a .txt file like \code{\link{CR_populations_1950_2015}}.}
+\item{pops}{character. A character string that specifies population data path. The dataset is a .txt file like \code{CR_populations_1950_2015} dataset.}
 
 \item{sex}{character. "female" or "male".}
 
@@ -29,11 +29,11 @@ Lifetable(
 
 \item{threshold}{numeric. Maximum forecast year.}
 
-\item{jump}{character. Same purpose to \code{jumpchoice} argument in \code{\link{forecast}} function.}
+\item{jump}{character. Same purpose to \code{jumpchoice} argument in \code{\link[forecast]{forecast}} function.}
 
 \item{element}{character. Wanted estimation element, one of "mx", "qx", "lx", "dx", "Lx", "Tx", "ex" or "rx".}
 
-\item{...}{additional arguments to be passed to \code{\link{read.demogdata}}, such as \code{label}.}
+\item{...}{additional arguments to be passed to \code{\link[demography]{read.demogdata}}, such as \code{label}.}
 }
 \value{
 \code{Lifetable} function returns a list with both data frames, wide and long format, for specified element in argument \code{element} for desire years.

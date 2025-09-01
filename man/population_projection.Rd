@@ -7,14 +7,14 @@
 population_projection(...)
 }
 \arguments{
-\item{...}{required arguments for \code{\link{mortality_projection}}, \code{\link{TFR_projection}} and \code{\link{netmigration_projection}}.}
+\item{...}{required arguments for \code{\link[popstudy]{mortality_projection}}, \code{\link[popstudy]{TFR_projection}} and \code{\link[popstudy]{netmigration_projection}}.}
 }
 \value{
 \code{population_projection} returns an object of class \code{list} with the following components:
 
-\item{mort}{mortality projections from \code{\link{mortality_projection}}.}
-\item{fert}{fertility projections from \code{\link{TFR_projection}}.}
-\item{mig}{netmigration projections from \code{\link{netmigration_projection}}.}
+\item{mort}{mortality projections from \code{\link[popstudy]{mortality_projection}}.}
+\item{fert}{fertility projections from \code{\link[popstudy]{TFR_projection}}.}
+\item{mig}{netmigration projections from \code{\link[popstudy]{netmigration_projection}}.}
 \item{pop}{the national projections by sex and year.}
 }
 \description{
@@ -80,9 +80,9 @@ data(CR_women_childbearing_age_1950_2011)
 
 }
 \seealso{
-\code{\link{mortality_projection}}
-\code{\link{TFR_projection}}
-\code{\link{netmigration_projection}}
+\code{\link[popstudy]{mortality_projection}}
+\code{\link[popstudy]{TFR_projection}}
+\code{\link[popstudy]{netmigration_projection}}
 }
 \author{
 Cesar Gamboa-Sanabria

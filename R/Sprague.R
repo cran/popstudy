@@ -16,7 +16,7 @@
 #'
 #' @seealso
 #'
-#' \code{\link{Beers}}
+#' \code{\link[popstudy]{Beers}}
 #'
 #' @references
 #'

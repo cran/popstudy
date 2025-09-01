@@ -2,20 +2,20 @@
 #'
 #' Forecasting population using the components method.
 #'
-#' @param ... required arguments for \code{\link{mortality_projection}}, \code{\link{TFR_projection}} and \code{\link{netmigration_projection}}.
+#' @param ... required arguments for \code{\link[popstudy]{mortality_projection}}, \code{\link[popstudy]{TFR_projection}} and \code{\link[popstudy]{netmigration_projection}}.
 #'
 #' @return \code{population_projection} returns an object of class \code{list} with the following components:
 #'
-#' \item{mort}{mortality projections from \code{\link{mortality_projection}}.}
-#' \item{fert}{fertility projections from \code{\link{TFR_projection}}.}
-#' \item{mig}{netmigration projections from \code{\link{netmigration_projection}}.}
+#' \item{mort}{mortality projections from \code{\link[popstudy]{mortality_projection}}.}
+#' \item{fert}{fertility projections from \code{\link[popstudy]{TFR_projection}}.}
+#' \item{mig}{netmigration projections from \code{\link[popstudy]{netmigration_projection}}.}
 #' \item{pop}{the national projections by sex and year.}
 #'
 #' @seealso
 #'
-#' \code{\link{mortality_projection}}
-#' \code{\link{TFR_projection}}
-#' \code{\link{netmigration_projection}}
+#' \code{\link[popstudy]{mortality_projection}}
+#' \code{\link[popstudy]{TFR_projection}}
+#' \code{\link[popstudy]{netmigration_projection}}
 #'
 #' @examples
 #'

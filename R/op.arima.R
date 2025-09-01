@@ -22,18 +22,18 @@
 #'
 #' @param clusters numeric. The number of clusters for the parallel process.
 #'
-#' @param LAMBDA Optionally. See \code{\link[forecast:Arima]{forecast::Arima()}} for details.
+#' @param LAMBDA Optionally. See \code{\link[forecast]{Arima}} for details.
 #'
 #' @param ISP numeric. Overparameterization indicator to filter the estimated models in the (0,100] interval.
 #'
-#' @param ... additional arguments to be passed to \code{\link[forecast:Arima]{forecast::Arima()}}.
+#' @param ... additional arguments to be passed to \code{\link[forecast]{Arima}}.
 #'
 #' @return \code{op.arima} returns an object of class \code{list} with the following components:
 #'
 #' \item{arima_models}{all models defined by the \code{arima_process} argument.}
 #' \item{final_measures}{goodness of fit and precision measures for each model.}
 #' \item{bests}{a sorted list with the best ARIMA models.}
-#' \item{best_model}{a list of "Arima", see \code{\link[forecast:Arima]{forecast::Arima()}}}
+#' \item{best_model}{a list of "Arima", see \code{\link[forecast]{Arima}}}
 #'
 #' @examples
 #'

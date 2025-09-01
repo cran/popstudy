@@ -2,9 +2,9 @@
 #'
 #' Plot a Lexis Diagram from births and deaths data for a given year, month, and day with specific simple ages.
 #'
-#' @param deaths_data data.frame. A dataset with three variables: date_reg, the registered death date, age, the age of decease; and deaths, the deaths number for that date. See \code{\link{CR_deaths}}.
+#' @param deaths_data data.frame. A dataset with three variables: date_reg, the registered death date, age, the age of decease; and deaths, the deaths number for that date. See \code{CR_deaths} dataset.
 #'
-#' @param births_data data data.frame. A dataset with two variables: date_reg, the registered birth date; and births, the births number for that date. See \code{\link{CR_births}}.
+#' @param births_data data data.frame. A dataset with two variables: date_reg, the registered birth date; and births, the births number for that date. See \code{CR_births} dataset.
 #'
 #' @param first.date character. Optional argument that specifies the first date of interest.
 #'
